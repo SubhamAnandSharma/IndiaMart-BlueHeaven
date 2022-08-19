@@ -1,0 +1,59 @@
+div{
+    border-radius: 5px;
+    width: 60%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    padding: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#num,#piece{
+    border-radius: 1px;
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
+    color: black;
+    gap: 0px;
+    border: 1px solid teal;
+}
+#select_value{
+    border-radius: 7px;
+    height: 35px;
+    width: 200px;
+    border: 1px solid turquoise;
+}
+#use{
+    height: 100px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin: auto;
+    margin-left: 1px;
+    padding-left: 1px;
+}
+#use>div{
+    height: 40px;
+    width: 110px;
+    border: 1px solid;
+    text-align: center;
+    padding-top: 8px;
+    border-radius: 10px;
+    margin: auto; 
+}
+button{
+    height: 40px;
+    width: 200px;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(41, 193, 193);
+    margin-left: 0PX;
+    margin-top: 10px;
+    border:none;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: #00a699;
+}
